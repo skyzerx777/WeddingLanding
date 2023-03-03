@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SG Home Page</title>
+</head>
+
+<body>
+	<div class="header">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white container-xxl">
+			<div class="container-fluid">
+				<div class="glass-container hidden">
+					<i class="fa-solid fa-magnifying-glass navbar-icon hidden"></i>
+				</div>
+
+
+				<img src="../assets/images/Emblema.png" alt="Logo" class="navbar-brand">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active hover" aria-current="page" href="#">Обо мне</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hover" href="#portfolio">Портфолио</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hover" href="#services">Услуги</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hover" href="#contacts">Контакты</a>
+						</li>
+					</ul>
+					<div class="icons text-center">
+
+						<a href="#"><i class="fa-solid fa-magnifying-glass navbar-icon"></i></a>
+						<input type="search" id="btn-input" class="hidden btn-inp">
+						<a href="#"><i class="fa-brands fa-vk navbar-icon"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook-square navbar-icon"></i></a>
+						<a href="#" class="insta">
+							<svg width="0" height="0">
+								<radialGradient id="rg" r="150%" cx="30%" cy="107%">
+									<stop stop-color="#fdf497" offset="0" />
+									<stop stop-color="#fdf497" offset="0.05" />
+									<stop stop-color="#fd5949" offset="0.45" />
+									<stop stop-color="#d6249f" offset="0.6" />
+									<stop stop-color="#285AEB" offset="0.9" />
+								</radialGradient>
+							</svg><i class="fa-brands fa-instagram navbar-icon"></i></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<section class="slider">
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner slider-size">
+				<div class="carousel-item active" data-bs-interval="10000">
+					<img src="../assets/images/slider/wphoto1.jpg" class="d-block wedding-image" alt="Wedding photo">
+				</div>
+				<div class="carousel-item" data-bs-interval="10000">
+					<img src="../assets/images/slider/wphoto2.jpg" class="d-block wedding-image" alt="Wedding photo">
+				</div>
+				<div class=" carousel-item" data-bs-interval="10000">
+					<img src="../assets/images/slider/wphoto4.jpg" class="d-block wedding-image" alt="Wedding photo">
+				</div>
+
+			</div>
+			<div class="slider-controls-container">
+				<button class="slider-button-prev" type="button" data-bs-target="#carouselExampleControls"
+					data-bs-slide="prev">
+					<i class="fa-solid fa-angle-left"></i>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="slider-button-next" type="button" data-bs-target="#carouselExampleControls"
+					data-bs-slide="next">
+					<i class="fa-solid fa-angle-right"></i>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+		<div class="text-container">
+			<h1 class="slider-header">Свадебная Фотосессия</h1>
+			<h2 class="slider-header">02.10.2016</h2>
+			<button class="btn">Подробнее</button>
+		</div>
+	</section>
+
+	<section class="portfolio mt-3" id="portfolio">
+		<div class="container-xxl text-center">
+			<div class="header-container mb-3">
+				<div class="lines-container">
+					<div class="red-line"></div>
+					<div class="black-line"></div>
+				</div>
+				<span class="portfolio-header">Портфолио</span>
+				<div class="lines-container-reverse">
+					<div class="black-line"></div>
+					<div class="red-line"></div>
+				</div>
+			</div>
+
+			<div class="wrapper">
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo1.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Детская съемка</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo2.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo3.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo4.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo5.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo6.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo7.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo8.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo9.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo10.jpg" alt="Wedding photo" class="grid-img">
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo11.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="grid-item">
+						<img src="../assets/images/portfolio/Photo12.jpg" alt="Wedding photo" class="grid-img">
+
+						<div class="overlay">
+							<div class="text">
+								<span>Lorem ipsum</span>
+								<p>16.09.2016</p>
+								<button class="overlay-btn">Подробнее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="btn btn-primary mt-5">Подробнее</button>
+		</div>
+	</section>
+
+	<section class="services mt-5" id="services">
+		<div class="header-container mb-5">
+			<div class="lines-container">
+				<div class="red-line"></div>
+				<div class="white-line"></div>
+			</div>
+			<span class="portfolio-header text-white">Услуги</span>
+			<div class="lines-container-reverse">
+				<div class="white-line"></div>
+				<div class="red-line"></div>
+			</div>
+		</div>
+		<div class="container-xxl">
+			<div class="services-wrapper">
+				<div class="item text-center">
+					<i class="fa-solid fa-camera services-icon mb-3"></i>
+					<p class="text-white">Репортажная съемка</p>
+				</div>
+				<div class="item text-center">
+					<i class="fa-solid fa-image-portrait services-icon mb-3"></i>
+					<p class="text-white">Портретная съемка</p>
+				</div>
+				<div class="item text-center">
+					<i class="fa-solid fa-person-walking services-icon mb-3"></i>
+					<p class="text-white">Индивидуальная съемка</p>
+				</div>
+				<div class="item text-center">
+					<i class="fa-solid fa-rectangle-ad services-icon mb-3"></i>
+					<p class="text-white">Рекламная съемка</p>
+				</div>
+
+				<div class="item text-center">
+					<i class="fa-solid fa-heart services-icon mb-3"></i>
+					<p class="text-white">Love story</p>
+				</div>
+				<div class="item text-center">
+					<i class="fa-solid fa-face-grin-hearts services-icon mb-3"></i>
+					<p class="text-white">Фотосессии в стиле НЮ</p>
+				</div>
+				<div class="item text-center">
+					<i class="fa-solid fa-image services-icon mb-3"></i>
+					<p class="text-white">Студийные фотосъемки</p>
+				</div>
+				<div class="item text-center">
+					<i class="fa-solid fa-children services-icon mb-3"></i>
+					<p class="text-white">Детская фотосъемка</p>
+				</div>
+				<div class="item text-center lst-item">
+					<i class="fa-solid fa-mask services-icon mb-3"></i>
+					<p class="text-white">Фотосессия образ</p>
+				</div>
+				<div class="item text-center mb-3 hidden-item">
+					<i class="fa-solid fa-baby services-icon mb-3"></i>
+					<p class="text-white">Newborn фотосъемка</p>
+				</div>
+				<div class="item text-center mb-3 hidden-item">
+					<i class="fa-solid fa-user-tie services-icon mb-3"></i>
+					<p class="text-white">Model photo</p>
+				</div>
+				<div class="item text-center mb-3 hidden-item">
+					<i class="fa-solid fa-person-dress services-icon mb-3"></i>
+					<p class="text-white">Wedding in Europe</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<div class="container-xxl">
+			<div class="header-container m-3">
+				<div class="lines-container">
+					<div class="red-line"></div>
+					<div class="black-line"></div>
+				</div>
+				<span class="portfolio-header">Контакты</span>
+				<div class="lines-container-reverse">
+					<div class="black-line"></div>
+					<div class="red-line"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-md-3 icons-col">
+					<div class="contact-icon-container">
+						<i class="fa-brands fa-vk contact-icon"></i>
+					</div>
+					<div class="contact-icon-container">
+						<i class="fa-brands fa-facebook-square contact-icon"></i>
+					</div>
+					<div class="contact-icon-container">
+						<i class="fa-brands fa-instagram contact-icon"></i></a>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-9 ">
+					<form action="#" class="form">
+						<div class="porftolio-header-container">
+							<span class="portfolio-header">обратная связь</span>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-12 col-md-5">
+								<div class="form-floating">
+									<input type="text" class="form-control form-inp" id="floatingText"
+										placeholder="Password">
+									<label for="floatingPassword">Имя</label>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-7">
+								<div class="form-floating">
+									<input type="email" class="form-control form-inp" id="floatingInput"
+										placeholder="name@example.com">
+									<label for="floatingInput">EMAIL/Телефон</label>
+								</div>
+							</div>
+
+							<div class="col-12">
+								<div class="form-floating">
+									<input type="text" class="form-control form-inp" id="floatingInput"
+										placeholder="Сообщение">
+									<label for="floatingTextarea">Текст сообщения</label>
+								</div>
+							</div>
+
+						</div>
+						<div class="row"><button type="submit" class="btn btn-primary form-btn">отправить</button></div>
+					</form>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<footer>
+		<div class="container-xxl pt-2 pb-2">
+			<p>Photographer Lorem ipsum</p>
+			<p>2016</p>
+			<span>Сайт изготовлен командой Lorem ipsum</span>
+		</div>
+
+
+	</footer>
+</body>
+
+</html>
